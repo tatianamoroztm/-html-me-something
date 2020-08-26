@@ -3,10 +3,10 @@ margin-left: 50px;
 }
 body {
     font-family: sans-serif;
-    background-color: lightblue;
+    background-color:#ffd6b3;
 }
 h1 {
-    color: blue;
+    color:#b34d00;
     text-align: center;
 }
 h2 {
@@ -17,7 +17,7 @@ footer {
     font-size: 0.8em;
     margin: 20px;
      text-align: center;
-     background-color: green;
+     background-color:green;
      color: white;
      padding: 10px;
 }
@@ -29,10 +29,20 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-#caption {
+.caption {
     color: indigo;
     font-size: 0.9em;
     font-style: italic;
     text-align: center;
     margin-top: 5px;
+}
+main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color:#ffe2cc;
+    padding: 5%;
+}
+#fullWidth {
+    width: 100%;
 }
